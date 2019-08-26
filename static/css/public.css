@@ -1,0 +1,13 @@
+body{
+  font: 14px "Microsoft YaHei", Arial, Helvetica, sans-serif;
+  color: #555;
+}
+
+body,html,ul,li{
+	margin:0;
+	padding:0;
+}
+
+ul{
+  list-style:none;
+}

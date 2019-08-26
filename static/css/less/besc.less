@@ -1,0 +1,40 @@
+@width-all:100%;
+@width-max:1200px;
+@width-bigger:960px;
+@width-big:800px;
+@width-middle:720px;
+@width-small:640px;
+@width-less:480px;
+@width-min:360px;
+@width-1366:1366px;
+@width-1280:1280px;
+@width-1080:1080px;
+@width-960:960px;
+@width-854:854px;
+@width-800:800px;
+@width-720:720px;
+@width-640:640px;
+@width-540:540px;
+@width-480:480px;
+@width-360:320px;
+@width-320:320px;
+
+@border-min:1px;
+@border-small:2px;
+@border-middle:3px;
+@border-big:4px;
+@border-max:5px;
+
+@margin-min:10px;
+@margin-small:16px;
+@margin-middle:20px;
+@margin-big:26px;
+@margin-max:30px;
+
+.auto-width{
+	width:@width-max;
+	margin:0 auto;
+	@media screen and(max-width:@width-max){
+    width:@width-all;
+  }
+}
